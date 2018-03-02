@@ -11,22 +11,22 @@
         <platform name="ios">
             <preference name="CAMERA_USAGE_DESCRIPTION" default="This app needs camera access"/>
             <config-file target="*-Info.plist" parent="NSCameraUsageDescription">
-                <string>$CAMERA_USAGE_DESCRIPTION</string>
+                <string>De app heeft toegang nodig tot uw camera om de barcode te kunnen scannen zodat u snel de juiste order te zien krijgt.</string>
             </config-file>
 
             <preference name="MICROPHONE_USAGE_DESCRIPTION" default="This app needs microphone access"/>
             <config-file target="*-Info.plist" parent="NSMicrophoneUsageDescription">
-                <string>$MICROPHONE_USAGE_DESCRIPTION</string>
+                <string>De app gebruikt de microfoon niet. ;-)</string>
             </config-file>
 
             <preference name="PHOTOLIBRARY_ADD_USAGE_DESCRIPTION" default="This app needs write-access to photo library"/>
             <config-file target="*-Info.plist" parent="NSPhotoLibraryAddUsageDescription">
-                <string>$PHOTOLIBRARY_ADD_USAGE_DESCRIPTION</string>
+                <string>De app voegt geen phot's toe aan uw foto library.</string>
             </config-file>
 
             <preference name="PHOTOLIBRARY_USAGE_DESCRIPTION" default="This app needs read/write-access photo library access"/>
             <config-file target="*-Info.plist" parent="NSPhotoLibraryUsageDescription">
-                <string>$PHOTOLIBRARY_USAGE_DESCRIPTION</string>
+                <string>De app heeft toegang nodig tot uw foto's zodat u een foto kan selecteren van bijv. een AVC/CMR werkbon en die mee kan sturen bij het afmelden van een order.</string>
             </config-file>
         </platform>
     </plugin>
